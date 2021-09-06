@@ -22,3 +22,9 @@ git config --global user.email "Your Email Address
 ```
 git config --list
 ```
+
+5. **We can also check using -**
+```
+git config --global user.name
+git config --global user.email
+```
