@@ -28,3 +28,19 @@ git config --list
 git config --global user.name
 git config --global user.email
 ```
+| Command                                   | Description                                      |
+|-------------------------------------------|--------------------------------------------------|
+| `git init`                                | Initialize a new Git repository in the folder    |
+| `git clone <repo-url>`                    | Clone (download) a remote repository             |
+| `git status`                              | Show the status of changes (staged, unstaged)    |
+| `git add <file>` or `git add .`           | Add file(s) to staging area                     |
+| `git commit -m "message"`                 | Commit staged changes with a message            |
+| `git push`                                | Push commits to the remote repository           |
+| `git pull`                                | Pull updates from the remote repository         |
+| `git branch`                              | List all branches                               |
+| `git checkout -b <branch-name>`           | Create and switch to a new branch               |
+| `git checkout <branch-name>`              | Switch to an existing branch                   |
+| `git merge <branch-name>`                 | Merge a branch into the current branch         |
+| `git log`                                 | View commit history                            |
+| `git remote -v`                           | Show remote repository URLs                    |
+| `git reset --hard <commit-hash>`          | Reset to a specific commit (destructive)       |
